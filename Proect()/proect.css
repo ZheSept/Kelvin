@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+@import url(./reset.css);
+
+body{
+	font-family: 'Poppins', sans-serif;
+}
+.site{
+	margin: 0;
+	padding: 0;
+}
+.header{
+	background-color:#F1F1F1;
+}
+.conteiner{
+	max-width:1170px ;
+	height: 100%;
+	margin: 0 auto;
+}
+.menu{
+	display: flex;
+	justify-content: space-beatween;
+}
+.logo{
+	position: relative;
+}
+.text{	margin-top:46px ;
+    font-size: 32px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    line-height: 32px;
+}
+.elips{margin-left: 107px;
+	margin-top: -6px;
+	height: 8px;
+	width: 8px;
+	background-color: #FDA300;
+	border-radius: 45px;
+	position: absolute;
+}
+.menu_ul{list-style: none;
+	display: flex;
+    column-gap: 50px;
+    margin-top: 60px
+}
+.menu_li{
+	font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+.list{
+	margin-left:621px;
+}
+.content{
+	display: flex;
+    justify-content: space-beatween;
+    margin-top: 76px;
+    column-gap: 194px;
+}
+.content_text{
+	max-width: 500px;
+}
+.content_text h1{
+	font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+	font-size: 44px;
+	margin-top: 203px;
+	margin-bottom: 20px;
+}
+.content_text p{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+}
+.sevis_warpe{
+	display: flex;
+	justify-content: space-beatween;
+	margin-top: 90px;
+}
+.sevis_card{
+	padding-right:30px ;
+}
+.sevis_card p{
+	font-weight: 400;
+	font-size: 14px;
+	margin-top: 10px; 
+	width: 370px;
+	height: 84px;
+}
+.sevis_card h1{
+	font-weight: 600;
+	font-size: 24px;
+	margin-top: 30px ;
+}
+
+.port{
+	margin-top: 90px;
+	background-color:#F1F1F1;
+}
+.cont_port{
+	max-width:1170px ;
+	padding-block-end: 90px;
+	margin: 0 auto;
+}
+.main_port{
+	display: flex;
+	justify-content: space-beatween;
+}
+.Text_port h1{
+	margin-top: 90px;
+	font-weight: 600;
+    font-size: 34px;
+    margin-left: 514px; 
+    margin-bottom:70.33px ;
+}
+.cont_port img{ 
+	margin-left: 121px; margin-bottom: 40px;
+}
+.text_link1{
+    margin-left: 440.45px;
+}
+.text_link2{
+    margin-left: 483.6px;
+}
+.text_link3{
+    margin-left: 441.48px;  
+}
+.cont_port p{
+	font-weight: 400;
+    font-size: 18px;
+    Text-decoration:underline;
+}
+.cont_port_img2{
+margin-top: 90px;
+}
+.cont_port_img3{
+	margin-top: 90px;
+}
+.footer{
+	background-color:#F1F1F1;
+}
+.cont_footer{
+	max-width:1170px ;
+    padding-block-start: 90px;
+    padding-block-end: 90px;
+	margin: 0 auto;
+}
+.main_footer{
+	justify-content: space-beatween;
+}
+.Text_footer h1{
+	font-weight: 600;
+    font-size: 34px;
+    margin-left: 506px; 
+}
+.Text_footer p{
+	font-weight: 400;
+    font-size: 18px;
+    width: 296px;
+    height: 54px;
+    Text-align: center;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.Like_Me p{
+	font-weight: 400;
+    font-size: 14px;
+    width: 260px;
+    height: 42px;
+    text-align: center;
+    margin:0 auto;
+	color: #828282;
+	margin-top: 40px;
+}
+.main_footer button{
+	background-color: black;
+	color: white;
+	height: 42px;
+	width: 180.5px;
+    border-radius: 50px;
+    margin-left: 495px;
+    margin-top: 40px;
+}
+.Link_icons{
+	margin-top: 80px;
+	margin-left: 414px;
+}
+.img_footer{
+	padding-right: 60px;
+}
