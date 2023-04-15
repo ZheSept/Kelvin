@@ -4,28 +4,39 @@
            <meta charset=“UTF-8”>
            <meta name=“viewport” content=“width=device-width, initial-scale=1.0”>
            <link rel=“stylesheet” href=“”>
-           <link rel="stylesheet" type="text/css" href="proect.css" href="reset.css">
+           <link rel="stylesheet" type="text/css" href="proect.css">
+           <link rel="stylesheet" href="phone.css">
+           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
            <title>Document </title>
+           
 </head>
-<body> 
+<body > 
     <div class="site">
         <div class="header">
             <div class="conteiner">
                 <div class="menu">
-                    <div class="Logo">
+                    <div  class="Logo">
                         <div class="text">Kelvin</div>
                         <div class="elips"></div>
                     </div>
-                    <div class="list">
-                        <ul class="menu_ul"><li class="menu_li">Home</li>
+                    <div>
+                    <nav id="nav" class="nav open">
+                    <div class="menu_list">
+                        <ul data-aos="fade-left"  class="menu_ul" ><li class="menu_li">Home</li>
                         <li class="menu_li">Works</li>
                         <li class="menu_li">Services</li>
                         <li class="menu_li">About</li>
                         <li class="menu_li">Contact</li>
                         </ul>
+                         <div data-aos="fade-left"  id="nav_btn" class="nav_btn">
+                             <img id="nav_img" src=Nav.svg class="nav_img">
+                        </div>
                     </div>
+                    </nav>
+                    </div>
+                    
                 </div>       
-                <div class="content">
+                <div  data-aos="fade-down" class="content">
                     <div class="content_text">
                         <h1>
                          Kelvin Kramer Designer & Developer  
@@ -35,7 +46,10 @@
                         </p>
                     </div>
                     <div class="content_img">
-                      <img src="hero.png">
+                      <picture>
+                            <source media="(max-width: 700px)" srcset="mobilehero.png">
+                            <img src="hero.png">
+                        </picture>
                     </div>
               </div>
             </div> 
@@ -72,12 +86,12 @@
                     <h1>Portfolio
                     </h1>
                 </div>
-                <img class="cont_port_img" src="reebok_web _2.jpg">
-                <p class="text_link1">Online fashion store - Homepage<p>
-                    <img class="cont_port_img2" src="reebok_web.jpg">
-                <p class="text_link2">Reebok Store - Concept<p>
-                    <img class="cont_port_img3" src="reebok_web_1.jpg">
-                <p class="text_link3">Braun Landing Page - Concept<p>              
+                <div data-aos="fade-left" data-aos-duration="700"><img class="cont_port_img" src="reebok_web _2.jpg">
+                <p class="text_link1">Online fashion store - Homepage<p></div>
+                  <div data-aos="fade-right" data-aos-duration="700">  <img class="cont_port_img2" src="reebok_web.jpg">
+                <p class="text_link2">Reebok Store - Concept<p></div>
+                    <div data-aos="fade-left" data-aos-duration="700"><img class="cont_port_img3" src="reebok_web_1.jpg">
+                <p class="text_link3">Braun Landing Page - Concept<p>  </div>            
             </div>     
         </div>
         <footer>
@@ -91,22 +105,25 @@
                     </div>
                     <button>Send message</button>
                     <div class="Link_icons">
-                        <img class="img_footer" src="in.png">
-                        <img class="img_footer" src="inst.png">
-                        <img class="img_footer" src="behance.png">
-                        <img class="img_footer" src="bascet.png">
+                        <img data-aos="zoom-in-down" data-aos-duration="700" class="img_footer" src="in.png">
+                        <img data-aos="zoom-in-down" data-aos-duration="700" class="img_footer" src="inst.png">
+                        <img data-aos="zoom-in-down" data-aos-duration="700" class="img_footer" src="behance.png">
+                        <img data-aos="zoom-in-down" data-aos-duration="700" class="img_footerb" src="bascet.png">
                     </div>
                     <div class="Like_Me">
                         <p>Like me on 
                            LinkedIn, Instagram, Behance, Dribble
                         </p>
                     </div>
- 
                 </div>
+                
             </div>         
         </footer> 
     </div>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="script.js"></script>
+                
 
 </body>
 </html>

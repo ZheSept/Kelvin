@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
 @import url(./reset.css);
-
 body{
 	font-family: 'Poppins', sans-serif;
 }
 .site{
 	margin: 0;
 	padding: 0;
+	overflow:hidden;
 }
 .header{
 	background-color:#F1F1F1;
@@ -18,14 +18,14 @@ body{
 }
 .menu{
 	display: flex;
-	justify-content: space-beatween;
+	justify-content: space-between;
 }
 .logo{
-	position: relative;
+	position: fixed;
+	z-index: 2;
 }
 .text{	margin-top:46px ;
     font-size: 32px;
-    font-family: 'Poppins', sans-serif;
     font-weight: 700;
     line-height: 32px;
 }
@@ -40,40 +40,36 @@ body{
 .menu_ul{list-style: none;
 	display: flex;
     column-gap: 50px;
-    margin-top: 60px
-}
-.menu_li{
-	font-family: 'Poppins', sans-serif;
+    margin-top: 60px;
     font-weight: 500;
     font-size: 14px;
 }
-.list{
+.menu_list{
 	margin-left:621px;
 }
 .content{
 	display: flex;
-    justify-content: space-beatween;
+    justify-content: space-between;
     margin-top: 76px;
     column-gap: 194px;
+    z-index: 5;
 }
 .content_text{
 	max-width: 500px;
 }
-.content_text h1{
-	font-family: 'Poppins', sans-serif;
+.content_text h1{	
     font-weight: 600;
 	font-size: 44px;
 	margin-top: 203px;
 	margin-bottom: 20px;
 }
 .content_text p{
-	font-family: 'Poppins', sans-serif;
 	font-weight: 400;
 	font-size: 14px;
 }
 .sevis_warpe{
 	display: flex;
-	justify-content: space-beatween;
+	justify-content: space-between;
 	margin-top: 90px;
 }
 .sevis_card{
@@ -187,3 +183,16 @@ margin-top: 90px;
 .img_footer{
 	padding-right: 60px;
 }
+
+.nav_btn{
+    position: absolute;
+    top: 0px;
+    right: -40px;
+    display: none;
+    width: 33px;
+    height: 20px;
+}
+
+
+
+
